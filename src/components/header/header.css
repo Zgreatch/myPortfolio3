@@ -49,6 +49,11 @@ header{
   font-weight: 300;
   font-weight: 0.9rem;
 }
+
+img[alt$="icon"] {
+  width: 30px;
+  height: 30px;
+}
 @media screen and(max-width:1024px) {
   header{
   height:68vh
@@ -62,3 +67,4 @@ header{
     display: none;
   }
 }
+

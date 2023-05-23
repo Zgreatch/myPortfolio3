@@ -3,7 +3,7 @@ import './header.css'
 import HeaderSocial from './HeaderSocial'
 //import './CTA'
 import CTA from './CTA' //here we import the CTA component inside our header
-import me from '../../assets/mumu.png'
+import me from '../../assets/changer.png'
 export const Header = () => {
   return (
   <header>
