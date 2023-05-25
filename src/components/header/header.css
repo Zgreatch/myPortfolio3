@@ -3,12 +3,12 @@ header{
   padding-top: 7rem;
   overflow: hidden;
   }
-  .header__container{
+.header__container{
     height: 100%;
     text-align: center;
     position: relative;
     }
-    .cta{
+.cta{
       margin-top: 2.5rem;
       display: flex;
       gap: 1.2rem;
