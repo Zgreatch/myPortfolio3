@@ -41,6 +41,11 @@ header{
   overflow: hidden;
   padding: 0rem 1.5rem 1.5rem 1.5rem;
 }
+.my_image img {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-40%);
+}
 .scroll__down{
   position: absolute;
   right: -2rem;
@@ -50,10 +55,6 @@ header{
   font-weight: 0.9rem;
 }
 
-img[alt$="icon"] {
-  width: 30px;
-  height: 30px;
-}
 @media screen and(max-width:1024px) {
   header{
   height:68vh

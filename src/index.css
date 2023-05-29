@@ -82,9 +82,9 @@ a:hover{
                 border-color: transparent;
 }
 .btn-primary{
-                  background: var(--color-primary);
-                  color: var(--color-bg);
-                  }
+          background: var(--color-primary);
+          color: var(--color-bg);
+}
 img{
       display: block;
        width: 100%;
@@ -105,4 +105,4 @@ img{
         section > h2{
          margin-bottom: 2rem;
           }
-  }                          
+  }

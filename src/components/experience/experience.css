@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+.section {
+  margin-top: 8rem;
+}
+
+.container {
+  width: var(--container-width-lg);
+  margin: 0 auto;
+}
+
+.twoExp {
+    display: flex;
+    flex-direction: row;
+}
+
+.expitems {
+    display: flex;
+    flex-direction: column;
+}
+h2 {
+  color: var(--color-primary);
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+
+.experience-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+.bold {
+    font-weight: bold;
+}
+.experience-icon {
+  font-size: 2rem;
+  color: var(--color-primary);
+  margin-right: 1.5rem;
+}
+
+.experience-details h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.experience-details p {
+  margin-bottom: 0.5rem;
+  color: var(--color-light);
+}
+
+/* Additional styles can be added as needed */
+
+.programming-experience {
+    margin-left: 16rem ;
+  }
+  
+  .languages {
+    margin-bottom: 3rem;
+  }
+  .language-icon {
+    font-size: 1.5rem;
+    color: var(--color-primary);
+    margin-right: 1.5rem;
+  }
+  
+  .languages h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  
+  .progress-bar {
+    margin-bottom: 1rem;
+  }
+  
+  .language {
+    display: inline-block;
+    width: 100px;
+  }
+  
+  .bar {
+    width: 100%;
+    height: 10px;
+    background-color: var(--color-bg-variant);
+    border-radius: 5px;
+  }
+  
+  .progress {
+    height: 100%;
+    background-color: var(--color-primary);
+    border-radius: 5px;
+  }
+  
+  /* Additional styles can be added as needed */
+  

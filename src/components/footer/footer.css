@@ -1,0 +1,35 @@
+footer {
+    background-color: var(--color-primary);
+    padding: 2rem;
+    text-align: center;
+    border-top: 1rem solid #3e3e5f;
+    border-radius: 2rem 2rem 0 0;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  
+  .contact-info,
+  .references {
+    flex-basis: 50%;
+    margin-bottom: 2rem;
+  }
+  
+  .contact-info h3,
+  .references h3 {
+    color: var(--color-primary);
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .copy-text {
+    color: var(--color-light);
+    font-size: 0.9rem;
+  }
+  
+  /* Additional styles can be added as needed */
+  

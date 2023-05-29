@@ -1,9 +1,35 @@
-import React from 'react'
+import React from 'react';
+import './footer.css';
+
 export const Footer = () => {
+  const references = [
+    'John Doe, CEO of XYZ Company',
+    'Jane Smith, Creative Director at ABC Agency',
+    'Mike Johnson, Freelance Client',
+  ];
+
   return (
-    <div>
-      footer
+    <footer>
+      <div className="container">
+        <div className="footer-content">
+          <div className="contact-info">
+            <h3>Contact Information</h3>
+            <p>Email: example@example.com</p>
+            <p>Phone: +1 123-456-7890</p>
+          </div>
+          <div className="references">
+            <h3>References</h3>
+            <ul>
+              {references.map((reference, index) => (
+                <li key={index}>{reference}</li>
+              ))}
+            </ul>
+          </div>
+        </div>
+        <p className="copy-text">&copy; 2023 Your Name. All rights reserved.</p>
       </div>
-  )
-}
+    </footer>
+  );
+};
+
 export default Footer;
