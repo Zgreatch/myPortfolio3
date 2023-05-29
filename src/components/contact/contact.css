@@ -39,6 +39,6 @@ input, textarea {
     color: var(--color-white);
 }
 
-input[type='text'] {
-    height: 2em;
+input[type] {
+    height: 3em;
 }

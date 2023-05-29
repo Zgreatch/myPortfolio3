@@ -32,3 +32,32 @@ Author: Zgreatch <franktchetta54@gmail.com>
 Date:   Fri May 19 09:27:12 2023 +0100
 
     I created this new repository
+commit 90a2413bd91ddc056fcd2329a7e31d1f149e51f1
+Author: Zgreatch <franktchetta54@gmail.com>
+Date:   Mon May 29 01:47:28 2023 +0100
+
+    I am done with the front. Heading toward the backend
+
+commit d8682139fd3cda67fac567c05f8cfae04dd392ee
+Author: Zgreatch <franktchetta54@gmail.com>
+Date:   Thu May 25 22:51:52 2023 +0100
+
+    I am done with the navbar and I'm working on the other sections of the frontend, while learning how to work onn the backend
+
+commit 8a33275560caaf1469d30493c4b545097890a264
+Author: Zgreatch <franktchetta54@gmail.com>
+Date:   Tue May 23 12:03:06 2023 +0100
+
+    Trying to add new components
+
+commit 5a4a533a79042f0fa0e0360d1eb077f727f13c27
+Author: Zgreatch <franktchetta54@gmail.com>
+Date:   Tue May 23 08:31:59 2023 +0100
+
+    My portfolio is visible. I'm still trying to import react icons
+
+commit 0639c81551ade8aab061c9a8d35f5b444a2d70bb
+Author: Zgreatch <franktchetta54@gmail.com>
+Date:   Fri May 19 09:27:12 2023 +0100
+
+    I created this new repository
