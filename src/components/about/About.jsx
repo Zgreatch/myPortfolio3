@@ -10,8 +10,6 @@ export const About = () => {
       <h2>About Me</h2>
         <div className="about-content">
           <div className="about-image">
-            <div className='toRotate'></div>
-            <div className='toRotate'></div>
               <img src={me} alt="Profile" />
           </div>
           <div className="about-text">
