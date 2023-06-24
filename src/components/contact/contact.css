@@ -21,7 +21,7 @@
     border-radius: 20px;
 }
 
-form {
+#form {
     display: flex;
     flex-direction: column;
     justify-content: left;
@@ -37,8 +37,9 @@ input, textarea {
     border-radius: 2rem;
     background: rgba(70, 70, 100, 0.6);
     color: var(--color-white);
+    width: 100%;
 }
 
 input[type] {
-    height: 3em;
+    height: 4em;
 }
