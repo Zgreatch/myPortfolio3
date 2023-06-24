@@ -11,7 +11,7 @@ const sendEmail = (e) => {
 e.preventDefault();
 
 var fromName = document.querySelector(`[name="name"]`).value;
-var messageHtml = document.querySelector('#message').value;
+var messageHtml = document.querySelector('[name="message"]').value;
 var templateParams = {
   to_name: 'Tchetta Frank',
   from_name: fromName,
@@ -21,7 +21,7 @@ var templateParams = {
   emailjs.init("QizjnWWHv5Zr9tTT4");
 })();
 
-emailjs.send('service_e3fpgc5', 'template_qb547ij', templateParams)
+emailjs.send('service_e3fpgc5', 'template_smubk8j', templateParams)
   .then(function(response) {
     console.log('SUCCESS!', response.status, response.text);
     document.querySelector(`[name="name"]`).value = '';
