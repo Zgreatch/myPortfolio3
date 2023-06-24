@@ -1,0 +1,63 @@
+.testimonial-container {
+  width: var(--container-width-md);
+  margin: 0 auto;
+  margin-top: 8rem;
+  padding: 2rem;
+  background-color: var(--color-bg-variant);
+  border-radius: 0.4rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.testimonial-container h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  color: var(--color-primary);
+  margin-bottom: 3rem;
+}
+
+.testimonial-container p {
+  text-align: center;
+  color: var(--color-light);
+  margin-bottom: 1rem;
+}
+
+.testimonial-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonial-container label {
+  font-weight: 500;
+  color: var(--color-light);
+  margin-bottom: 0.5rem;
+}
+
+.testimonial-container input,
+.testimonial-container textarea {
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+  background-color: var(--color-bg);
+  color: var(--color-white);
+  border: none;
+  border-radius: 0.4rem;
+}
+
+.testimonial-container textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.testimonial-container button {
+  width: max-content;
+  align-self: flex-start;
+  padding: 0.75rem 1.2rem;
+  background-color: var(--color-primary);
+  color: var(--color-bg);
+  border: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+}
+
+.testimonial-container button:hover {
+  background-color: var(--color-primary-variant);
+}
